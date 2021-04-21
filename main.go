@@ -30,7 +30,7 @@ type PrimeSieve struct {
 // We'll calculate all Primes less than this value
 // Refer to the estimated time comments in the 'expectedValues' slice
 // before changing this to some mad value like 1e10000
-const sieveSize = 1e10
+const sieveSize = 1e6 // Default: 1e6
 
 // Entry point
 func main() {
